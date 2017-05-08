@@ -1,8 +1,9 @@
 {
   "name": "gaea-basic-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "built/src/index.js",
+  "typings": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "rm -rf lib && tsc"
