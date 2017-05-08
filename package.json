@@ -1,0 +1,25 @@
+{
+  "name": "gaea-basic-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "built/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "rm -rf lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascoders/gaea-basic-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ascoders/gaea-basic-components/issues"
+  },
+  "homepage": "https://github.com/ascoders/gaea-basic-components#readme",
+  "devDependencies": {
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "typescript": "^2.3.2"
+  }
+}
