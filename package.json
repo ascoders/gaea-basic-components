@@ -1,6 +1,6 @@
 {
   "name": "gaea-basic-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "built/index.js",
   "typings": "src/index.ts",
