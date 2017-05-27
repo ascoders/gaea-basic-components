@@ -2,7 +2,7 @@ import * as React from "react"
 import * as ReactDOM from "react-dom"
 import { Props, State } from "./select.type"
 
-export class Text extends React.Component<Props, State> {
+export class Select extends React.Component<Props, State> {
   public static defaultProps = new Props()
   public state = new State()
 
