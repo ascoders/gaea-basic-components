@@ -13,16 +13,15 @@ export class Props {
         field: "options",
         label: "选项",
         type: "array",
-        arrayType: {
-          value: {
-            type: "string",
-            label: "值"
-          },
-          name: {
-            type: "string",
-            label: "选项名称"
-          }
-        }
+        option: [{
+          field: "value",
+          type: "string",
+          label: "值"
+        }, {
+          field: "type",
+          type: "string",
+          label: "选项名称"
+        }]
       }
     ]
   }
