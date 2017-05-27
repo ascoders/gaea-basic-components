@@ -12,9 +12,13 @@ export class Select extends React.Component<Props, State> {
     })
 
     return (
-      <select defaultValue={this.props.defaultValue}>
+      <select defaultValue={this.props.defaultValue} onChange={this.handleChange}>
         {Options}
       </select>
     )
+  }
+
+  private handleChange = (event: React.FormEvent<HTMLSelectElement>) => {
+    this.props.onChange(event.currentTarget.value as string)
   }
 }

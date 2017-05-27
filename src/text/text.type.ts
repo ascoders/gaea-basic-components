@@ -7,7 +7,7 @@ export class Props {
       {
         field: "text",
         label: "文案",
-        type: "text"
+        type: "string"
       }
     ]
   }

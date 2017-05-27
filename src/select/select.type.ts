@@ -7,15 +7,21 @@ export class Props {
       {
         field: "defaultValue",
         label: "默认值",
-        type: "text"
+        type: "string"
       },
       {
         field: "options",
         label: "选项",
         type: "array",
         arrayType: {
-          value: "string",
-          name: "string"
+          value: {
+            type: "string",
+            label: "值"
+          },
+          name: {
+            type: "string",
+            label: "选项名称"
+          }
         }
       }
     ]
@@ -28,6 +34,8 @@ export class Props {
 
   public defaultValue: string = null
   public options: IOption[] = []
+
+  public onChange = (value?: string) => { }
 }
 
 export class State { }
