@@ -1,6 +1,6 @@
 export class Props {
   public gaeaSetting = {
-    key: "gaea-text",
+    key: "gaea-select",
     name: "下拉选择",
     editor: [
       "基本",
