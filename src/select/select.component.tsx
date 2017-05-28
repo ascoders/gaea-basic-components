@@ -8,7 +8,7 @@ export class Select extends React.Component<Props, State> {
 
   public render() {
     const Options = this.props.options.map((option, index) => {
-      return <option value={option.value}>{option.name}</option>
+      return <option value={option.value} key={index}>{option.name}</option>
     })
 
     return (
