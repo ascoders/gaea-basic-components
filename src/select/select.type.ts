@@ -2,7 +2,7 @@ export class Props {
   public gaeaSetting = {
     key: "gaea-select",
     name: "下拉选择",
-    editor: [
+    editors: [
       "基本",
       {
         field: "defaultValue",
@@ -13,7 +13,7 @@ export class Props {
         field: "options",
         label: "选项",
         type: "array",
-        editor: [{
+        editors: [{
           field: "value",
           type: "string",
           label: "值"

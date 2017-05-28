@@ -2,7 +2,7 @@ export class Props {
   public gaeaSetting = {
     key: "gaea-text",
     name: "文字",
-    editor: [
+    editors: [
       "展示",
       {
         field: "text",
