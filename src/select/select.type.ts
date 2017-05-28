@@ -13,7 +13,7 @@ export class Props {
         field: "options",
         label: "选项",
         type: "array",
-        option: [{
+        editor: [{
           field: "value",
           type: "string",
           label: "值"
