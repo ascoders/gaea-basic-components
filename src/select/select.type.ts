@@ -18,7 +18,7 @@ export class Props {
           type: "string",
           label: "值"
         }, {
-          field: "type",
+          field: "name",
           type: "string",
           label: "选项名称"
         }]
