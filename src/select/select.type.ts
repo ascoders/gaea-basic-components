@@ -23,7 +23,14 @@ export class Props {
           label: "选项名称"
         }]
       }
-    ]
+    ],
+    events: [{
+      trigger: "onChange",
+      name: "选择时",
+      data: [{
+        name: "选中值"
+      }]
+    }]
   }
 
   public style: React.CSSProperties = {
