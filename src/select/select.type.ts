@@ -26,8 +26,8 @@ export class Props {
     ],
     events: [{
       name: "选择时",
-      trigger: "onChange",
-      triggerData: [{
+      field: "onChange",
+      data: [{
         name: "选中值"
       }]
     }]
