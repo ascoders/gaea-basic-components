@@ -3,6 +3,11 @@ export class Props {
     key: "gaea-text",
     name: "文字",
     editors: [
+      "布局",
+      {
+        label: "边距",
+        type: "box-editor"
+      },
       "展示",
       {
         field: "text",

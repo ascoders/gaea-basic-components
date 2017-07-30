@@ -4,6 +4,11 @@ export class Props {
     name: "容器",
     isContainer: true,
     editors: [
+      "布局",
+      {
+        label: "边距",
+        type: "box-editor"
+      },
       "基本",
       {
         field: "style.backgroundColor",
@@ -16,7 +21,7 @@ export class Props {
         type: "number",
         data: {
           useSlider: true,
-          sliderStep: 1,
+          step: 1,
           inputRange: [0, 100],
           outputRange: [0, 1]
         }

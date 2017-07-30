@@ -3,6 +3,11 @@ export class Props {
     key: "gaea-select",
     name: "下拉选择",
     editors: [
+      "布局",
+      {
+        label: "边距",
+        type: "box-editor"
+      },
       "基本",
       {
         field: "defaultValue",
