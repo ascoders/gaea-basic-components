@@ -4,4 +4,6 @@ import { Icon } from './icon';
 import { Select } from './select';
 import { Switch } from './switch';
 
+import 'antd/dist/antd.css';
+
 export default [Container, Button, Select, Icon, Switch] as any[];
