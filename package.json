@@ -1,12 +1,16 @@
 {
   "name": "gaea-basic-components",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "",
-  "main": "built/index.js",
+  "main": "dist/src/index.js",
   "typings": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "rm -rf built && tsc && babel built --out-dir built"
+    "start": "pri dev",
+    "build": "pri build",
+    "preview": "pri preview",
+    "analyse": "pri analyse",
+    "test": "pri test",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,12 +22,15 @@
     "url": "https://github.com/ascoders/gaea-basic-components/issues"
   },
   "homepage": "https://github.com/ascoders/gaea-basic-components#readme",
+  "pri": {
+    "type": "component"
+  },
+  "types": "src/index.tsx",
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
   "devDependencies": {
-    "@types/react": "^15.0.24",
-    "@types/react-dom": "^15.5.0",
-    "typescript": "^2.3.2",
-    "babel-cli": "^6.24.0",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-stage-0": "^6.22.0"
+    "pri": "^0.9.3"
   }
 }
