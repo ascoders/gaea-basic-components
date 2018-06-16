@@ -1,9 +1,8 @@
 {
   "name": "gaea-basic-components",
-  "version": "1.0.19",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/src/index.js",
-  "typings": "src/index.ts",
   "scripts": {
     "start": "pri dev",
     "build": "pri build",
