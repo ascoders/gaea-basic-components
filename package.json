@@ -1,6 +1,6 @@
 {
   "name": "gaea-basic-components",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "main": "dist/src/index.js",
   "scripts": {
@@ -9,7 +9,10 @@
     "preview": "pri preview",
     "analyse": "pri analyse",
     "test": "pri test",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "docs": "pri docs",
+    "bundle": "pri bundle",
+    "format": "tslint --fix './src/**/*.?(ts|tsx)' && prettier --write './src/**/*.?(ts|tsx)'"
   },
   "repository": {
     "type": "git",
@@ -30,6 +33,9 @@
     "react-dom": ">=16.0.0"
   },
   "devDependencies": {
-    "pri": "^0.9.3"
+    "pri": "^0.11.19"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.56"
   }
 }
