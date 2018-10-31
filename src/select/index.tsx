@@ -19,7 +19,7 @@ export class Select extends React.Component<Props, State> {
       >
         {this.props.options.map((each, index) => {
           return (
-            <AntSelect.Option key={index} value={each.value} disabled={each.disabled}>
+            <AntSelect.Option key={index.toString()} value={each.value} disabled={each.disabled}>
               {each.text}
             </AntSelect.Option>
           );
